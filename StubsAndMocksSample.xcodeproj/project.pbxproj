@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0FEA01E5FF0009BCF486DEF7 /* libPods-StubsAndMocksSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BF9B070631FE8B8F143F1B /* libPods-StubsAndMocksSampleTests.a */; };
 		1F0FA03F92E8167E83FD926A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA605D5D2683F91583ABB /* AppDelegate.m */; };
-		1F0FA1F867D31ACA26ACE7D7 /* StubsAndMocksSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA9C14550C90D9920C90C /* StubsAndMocksSampleTests.m */; };
 		1F0FA264585BA9D1FE985F10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAD7A780E5B715A3F29F4 /* LaunchScreen.xib */; };
 		1F0FA36AA9715D6CB94C7DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAC8AF17D23AAB8EA69DF /* Main.storyboard */; };
 		1F0FA53A60022FAF178273BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FADAA55D67EFD6CEDBE3F /* LoginViewController.m */; };
 		1F0FA8161FB3F56D5A5DAB76 /* LoginSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA301BCB79DECA0A83E00 /* LoginSystem.m */; };
 		1F0FABE9B7D75F47BC9BE245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA7F28F39172C18A0D9F0 /* main.m */; };
 		1F0FAEA9B8A4F7327E8D06EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAB88E784B6C986F81009 /* Images.xcassets */; };
+		66EAB3DB1BA2E4B100DA6823 /* LoginViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EAB3DA1BA2E4B100DA6823 /* LoginViewControllerTests.m */; };
+		66EAB3DF1BA2E57900DA6823 /* LoginSystemStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EAB3DE1BA2E57900DA6823 /* LoginSystemStub.m */; };
+		66EAB3E21BA2E68600DA6823 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EAB3E11BA2E68600DA6823 /* LoginRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		1F0FA7F28F39172C18A0D9F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F0FA802D3CC8AE48D3150D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F0FA9867C60D0A602722DE9 /* StubsAndMocksSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubsAndMocksSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F0FA9C14550C90D9920C90C /* StubsAndMocksSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StubsAndMocksSampleTests.m; sourceTree = "<group>"; };
 		1F0FA9EBD44DAAEDFD9988F5 /* LoginSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSystem.h; sourceTree = "<group>"; };
 		1F0FAA5E58FBBEC5766D1D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1F0FAB88E784B6C986F81009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -46,6 +47,12 @@
 		1F0FADBA1405B0841315E8FB /* StubsAndMocksSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubsAndMocksSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FAF7BAF52F6B22A7A94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4D62713AB268F76036CC7303 /* Pods-StubsAndMocksSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubsAndMocksSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StubsAndMocksSampleTests/Pods-StubsAndMocksSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		66EAB3DA1BA2E4B100DA6823 /* LoginViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerTests.m; sourceTree = "<group>"; };
+		66EAB3DC1BA2E4E200DA6823 /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+		66EAB3DD1BA2E57900DA6823 /* LoginSystemStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSystemStub.h; sourceTree = "<group>"; };
+		66EAB3DE1BA2E57900DA6823 /* LoginSystemStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSystemStub.m; sourceTree = "<group>"; };
+		66EAB3E01BA2E68600DA6823 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		66EAB3E11BA2E68600DA6823 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
 		BBF2D09E8527119900FA9D79 /* Pods-StubsAndMocksSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubsAndMocksSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StubsAndMocksSampleTests/Pods-StubsAndMocksSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +86,11 @@
 		1F0FA3CFFC128A0C4846F3CE /* StubsAndMocksSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				66EAB3DC1BA2E4E200DA6823 /* TestHelpers.h */,
 				1F0FA43713313EAB1F9E4A3E /* Supporting Files */,
-				1F0FA9C14550C90D9920C90C /* StubsAndMocksSampleTests.m */,
+				66EAB3DA1BA2E4B100DA6823 /* LoginViewControllerTests.m */,
+				66EAB3DD1BA2E57900DA6823 /* LoginSystemStub.h */,
+				66EAB3DE1BA2E57900DA6823 /* LoginSystemStub.m */,
 			);
 			path = StubsAndMocksSampleTests;
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 				1F0FADAA55D67EFD6CEDBE3F /* LoginViewController.m */,
 				1F0FA301BCB79DECA0A83E00 /* LoginSystem.m */,
 				1F0FA9EBD44DAAEDFD9988F5 /* LoginSystem.h */,
+				66EAB3E01BA2E68600DA6823 /* LoginRequest.h */,
+				66EAB3E11BA2E68600DA6823 /* LoginRequest.m */,
 			);
 			path = StubsAndMocksSample;
 			sourceTree = "<group>";
@@ -272,7 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0FA1F867D31ACA26ACE7D7 /* StubsAndMocksSampleTests.m in Sources */,
+				66EAB3DF1BA2E57900DA6823 /* LoginSystemStub.m in Sources */,
+				66EAB3DB1BA2E4B100DA6823 /* LoginViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +297,7 @@
 				1F0FA03F92E8167E83FD926A /* AppDelegate.m in Sources */,
 				1F0FA53A60022FAF178273BD /* LoginViewController.m in Sources */,
 				1F0FA8161FB3F56D5A5DAB76 /* LoginSystem.m in Sources */,
+				66EAB3E21BA2E68600DA6823 /* LoginRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "LoginRequest.h"
 
 @interface LoginSystem : NSObject
+- (BOOL)areCredentialValid:(LoginRequest *)request;
+- (void)loginWithRequest:(LoginRequest *)request;
 @end

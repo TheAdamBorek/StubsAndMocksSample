@@ -6,7 +6,14 @@
 #import "LoginSystem.h"
 
 
-@implementation LoginSystem {
+@implementation LoginSystem
 
+- (BOOL)areCredentialValid:(LoginRequest *)request{
+    return YES;
 }
+
+- (void)loginWithRequest:(LoginRequest *)request{
+    
+}
+
 @end

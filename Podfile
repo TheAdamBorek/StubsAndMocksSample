@@ -6,8 +6,8 @@ target 'StubsAndMocksSample' do
 end
 
 target 'StubsAndMocksSampleTests' do
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMockito'
+  pod 'Specta','~> 1.0.2'
+  pod 'Expecta','~> 1.0.0'
+  pod "OCMockito",'~> 1.4.0'  
 end
 

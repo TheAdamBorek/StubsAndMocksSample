@@ -6,9 +6,9 @@ PODS:
   - Specta (1.0.3)
 
 DEPENDENCIES:
-  - Expecta
-  - OCMockito
-  - Specta
+  - Expecta (~> 1.0.0)
+  - OCMockito (~> 1.4.0)
+  - Specta (~> 1.0.2)
 
 SPEC CHECKSUMS:
   Expecta: 54e8a3530add08f4f0208c111355eda7cde74a53

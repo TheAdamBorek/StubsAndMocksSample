@@ -12,7 +12,6 @@
 
 
 @interface LoginViewController ()
-
 @end
 
 @implementation LoginViewController
@@ -28,8 +27,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)loginButtonPressed {
 
+
+- (IBAction)loginButtonPressed:(id)sender {
+    LoginRequest *loginRequest = [[LoginRequest alloc] initWithEmail:self.emailTextField.text password:self.passwordTextField.text];
+    if([self.loginSystem areCredentialValid:loginRequest])
+        [self.loginSystem loginWithRequest:loginRequest];
 }
 
 
