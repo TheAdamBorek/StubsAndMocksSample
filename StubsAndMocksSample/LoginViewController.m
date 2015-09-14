@@ -32,7 +32,9 @@
 - (IBAction)loginButtonPressed:(id)sender {
     LoginRequest *loginRequest = [[LoginRequest alloc] initWithEmail:self.emailTextField.text password:self.passwordTextField.text];
     if([self.loginSystem areCredentialValid:loginRequest])
-        [self.loginSystem loginWithRequest:loginRequest];
+        [self.loginSystem loginWithRequest:loginRequest callback:^(BOOL success, NSError *error) {
+
+        }];
 }
 
 

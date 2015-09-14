@@ -11,4 +11,5 @@
 @interface LoginSystemStub : LoginSystem
 @property (nonatomic, strong) LoginRequest *usedRequest;
 @property (nonatomic, assign) BOOL stubedAreCredentialValid;
+@property(nonatomic, strong) NSError *givenError;
 @end

@@ -12,7 +12,7 @@
     return YES;
 }
 
-- (void)loginWithRequest:(LoginRequest *)request{
+- (void)loginWithRequest:(LoginRequest *)request  callback:(LoginSystemLoginCallback)callback{
     
 }
 

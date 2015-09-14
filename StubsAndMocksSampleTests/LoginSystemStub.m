@@ -14,7 +14,12 @@
     return self.stubedAreCredentialValid;
 }
 
-- (void)loginWithRequest:(LoginRequest *)request{
+- (void)loginWithRequest:(LoginRequest *)request callback:(LoginSystemLoginCallback)callback{
     self.usedRequest = request;
+    if(!self.givenError)
+        callback(YES,nil);
+    else
+        callback(NO,self.givenError);
+
 }
 @end

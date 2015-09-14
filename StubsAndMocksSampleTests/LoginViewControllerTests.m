@@ -10,44 +10,44 @@
 #import "LoginSystemStub.h"
 
 SpecBegin(LoginViewControllerSpec)
-describe(@"LoginViewController", ^{
-    __block LoginViewController *subjectUnderTest;
-    __block LoginSystem *loginSystem;
-    __block UIStoryboard *storyboard;
+    describe(@"LoginViewController", ^{
+        __block LoginViewController *subjectUnderTest;
+        __block LoginSystemStub *loginSystemStub;
+        __block UIStoryboard *storyboard;
 
-    beforeAll(^{
-       storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-    });
-
-    before(^{
-        subjectUnderTest = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-        loginSystem = mock([LoginSystem class]);
-        subjectUnderTest.loginSystem =loginSystem;
-        [subjectUnderTest view];
-    });
-
-    describe(@"loginButtonPressed:",^{
-        context(@"when credential are valid",^{
-            __block LoginRequest *expectedRequest;
-            before(^{
-                [given([loginSystem areCredentialValid:anything()]) willReturnBool:YES];
-
-                NSString *expectedEmail = @"test@test.com";
-                NSString *expectedPassword = @"password";
-                subjectUnderTest.emailTextField.text = expectedEmail;
-                subjectUnderTest.passwordTextField.text = expectedPassword;
-                expectedRequest = [[LoginRequest alloc] initWithEmail:expectedEmail password:expectedPassword];
-            });
-
-            it(@"should login with loginSystem with credential provided by user",^{
-                [subjectUnderTest loginButtonPressed:nil];
-                [verify(loginSystem) loginWithRequest:expectedRequest];
-            });
-            
+        beforeAll(^{
+            storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
         });
-    
-    });
-});
 
+        before(^{
+            loginSystemStub = [LoginSystemStub new];
+
+            subjectUnderTest = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+            subjectUnderTest.loginSystem = loginSystemStub;
+            [subjectUnderTest view];
+        });
+
+        describe(@"loginButtonPressed:", ^{
+            context(@"when credential are valid", ^{
+                __block LoginRequest *expectedRequest;
+                before(^{
+                    loginSystemStub.stubedAreCredentialValid = YES;
+
+                    NSString *expectedEmail = @"test@test.com";
+                    NSString *expectedPassword = @"password";
+                    subjectUnderTest.emailTextField.text = expectedEmail;
+                    subjectUnderTest.passwordTextField.text = expectedPassword;
+                    expectedRequest = [[LoginRequest alloc] initWithEmail:expectedEmail password:expectedPassword];
+                });
+
+                it(@"should login with loginSystem with credential provided by user", ^{
+                    [subjectUnderTest loginButtonPressed:nil];
+                    expect(loginSystemStub.usedRequest).to.equal(expectedRequest);
+                });
+
+                //next test case like load wait indicator and so on ...
+            });
+        });
+    });
 SpecEnd
 
