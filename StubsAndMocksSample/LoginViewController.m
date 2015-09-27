@@ -16,19 +16,6 @@
 
 @implementation LoginViewController
 
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
-
 - (IBAction)loginButtonPressed:(id)sender {
     LoginRequest *loginRequest = [[LoginRequest alloc] initWithEmail:self.emailTextField.text password:self.passwordTextField.text];
     if([self.loginSystem areCredentialValid:loginRequest])
