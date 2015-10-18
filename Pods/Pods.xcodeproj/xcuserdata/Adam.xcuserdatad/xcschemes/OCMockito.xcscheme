@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ACE0951AE9EA067DE63C0F855EA4C08E"
+               BlueprintIdentifier = "B687AF7EDC4B2E68F6E0003F66B4E6CF"
                BuildableName = "libOCMockito.a"
                BlueprintName = "OCMockito"
                ReferencedContainer = "container:Pods.xcodeproj">
