@@ -131,18 +131,21 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCGenericTestFailureHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCGenericTestFailureHandler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCSenTestFailureHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCSenTestFailureHandler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailure.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailure.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandlerChain.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandlerChain.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCXCTestFailureHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureHandlers/HCXCTestFailureHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailure.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailure.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCEvery.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCEvery.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCHasCount.h" isTestSource="false" />
@@ -153,6 +156,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h" isTestSource="false" />
@@ -189,6 +194,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Number/HCNumberAssert.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Number/HCOrderingComparison.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Number/HCOrderingComparison.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Object/HCArgumentCaptor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Object/HCArgumentCaptor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Object/HCClassMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Object/HCClassMatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Object/HCConformsToProtocol.h" isTestSource="false" />
@@ -224,12 +231,19 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Text/HCSubstringMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Library/Text/HCSubstringMatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/OCHamcrest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTMockingProgress.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTMockingProgress.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTMockitoCore.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTMockitoCore.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTNonObjectArgumentMatching.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTTestLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/MKTTestLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/OCMockito.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Core/OCMockito.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTBlockArgumentGetter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTBlockArgumentGetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTCharArgumentGetter.h" isTestSource="false" />
@@ -266,8 +280,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongLongArgumentGetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedShortArgumentGetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedShortArgumentGetter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/MKTDynamicProperties.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/MKTDynamicProperties.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTCharReturnSetter.h" isTestSource="false" />
@@ -304,53 +316,48 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongReturnSetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedShortReturnSetter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedShortReturnSetter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTAnswer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTArgumentCaptor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTArgumentCaptor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTAtLeastTimes.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTAtLeastTimes.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTBaseMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTBaseMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTCapturingMatcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTCapturingMatcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTClassObjectMock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTClassObjectMock.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTExactTimes.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTExactTimes.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTExecutesBlock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTExecutesBlock.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTInvocationContainer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTInvocationContainer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTInvocationMatcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTInvocationMatcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTMockingProgress.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTMockingProgress.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTMockitoCore.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTMockitoCore.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTObjectAndProtocolMock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTObjectAndProtocolMock.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTObjectMock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTObjectMock.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTOngoingStubbing.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTOngoingStubbing.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTPrimitiveArgumentMatching.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTProtocolMock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTProtocolMock.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTReturnsValue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTReturnsValue.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTStubbedInvocationMatcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTStubbedInvocationMatcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTTestLocation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTTestLocation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTThrowsException.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTThrowsException.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTVerificationData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTVerificationData.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/MKTVerificationMode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/NSInvocation+OCMockito.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/NSInvocation+OCMockito.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/OCMockito.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/OCMockito.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Invocation/MKTInvocationMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Invocation/MKTInvocationMatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Invocation/NSInvocation+OCMockito.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Invocation/NSInvocation+OCMockito.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Matchers/MKTArgumentCaptor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Matchers/MKTArgumentCaptor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Matchers/MKTCapturingMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Matchers/MKTCapturingMatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTBaseMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTBaseMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTClassObjectMock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTClassObjectMock.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTDynamicProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTDynamicProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTObjectAndProtocolMock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTObjectAndProtocolMock.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTObjectMock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTObjectMock.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTProtocolMock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Mocking/MKTProtocolMock.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTAnswer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTExecutesBlock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTExecutesBlock.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTInvocationContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTInvocationContainer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTOngoingStubbing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTOngoingStubbing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTReturnsValue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTReturnsValue.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTStubbedInvocationMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTStubbedInvocationMatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTThrowsException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Stubbing/MKTThrowsException.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTAtLeastTimes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTAtLeastTimes.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTAtMostTimes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTAtMostTimes.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTExactTimes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTExactTimes.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTVerificationData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTVerificationData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/OCMockito/Verifying/MKTVerificationMode.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMockito/Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/Specta.h" isTestSource="false" />
@@ -400,6 +407,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-Private.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/APIConnection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/Base.lproj/LaunchScreen.xib" isTestSource="false" />
@@ -413,9 +421,11 @@
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/LoginViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/LoginViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSample/RESTRequest.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/LoginSystemStub.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/LoginSystemStub.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/LoginSystemTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/LoginViewControllerTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StubsAndMocksSampleTests/TestHelpers.h" isTestSource="false" />
     </content>

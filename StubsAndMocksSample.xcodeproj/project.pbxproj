@@ -13,6 +13,7 @@
 		1F0FA36AA9715D6CB94C7DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAC8AF17D23AAB8EA69DF /* Main.storyboard */; };
 		1F0FA53A60022FAF178273BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FADAA55D67EFD6CEDBE3F /* LoginViewController.m */; };
 		1F0FA8161FB3F56D5A5DAB76 /* LoginSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA301BCB79DECA0A83E00 /* LoginSystem.m */; };
+		1F0FAB61FC0A9C6AC54E3D4E /* LoginSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA9E3ED25A53E62069C0A /* LoginSystemTests.m */; };
 		1F0FABE9B7D75F47BC9BE245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA7F28F39172C18A0D9F0 /* main.m */; };
 		1F0FAEA9B8A4F7327E8D06EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAB88E784B6C986F81009 /* Images.xcassets */; };
 		66EAB3DB1BA2E4B100DA6823 /* LoginViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EAB3DA1BA2E4B100DA6823 /* LoginViewControllerTests.m */; };
@@ -39,10 +40,13 @@
 		1F0FA7F28F39172C18A0D9F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F0FA802D3CC8AE48D3150D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F0FA9867C60D0A602722DE9 /* StubsAndMocksSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubsAndMocksSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0FA9E3ED25A53E62069C0A /* LoginSystemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSystemTests.m; sourceTree = "<group>"; };
 		1F0FA9EBD44DAAEDFD9988F5 /* LoginSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSystem.h; sourceTree = "<group>"; };
 		1F0FAA5E58FBBEC5766D1D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1F0FAB88E784B6C986F81009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F0FAC7F4E645087E297C1BA /* APIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnection.h; sourceTree = "<group>"; };
 		1F0FACC7C5A61BA059931D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F0FAD90A32D4ACD2986A312 /* RESTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTRequest.h; sourceTree = "<group>"; };
 		1F0FADAA55D67EFD6CEDBE3F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1F0FADBA1405B0841315E8FB /* StubsAndMocksSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubsAndMocksSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FAF7BAF52F6B22A7A94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				66EAB3DA1BA2E4B100DA6823 /* LoginViewControllerTests.m */,
 				66EAB3DD1BA2E57900DA6823 /* LoginSystemStub.h */,
 				66EAB3DE1BA2E57900DA6823 /* LoginSystemStub.m */,
+				1F0FA9E3ED25A53E62069C0A /* LoginSystemTests.m */,
 			);
 			path = StubsAndMocksSampleTests;
 			sourceTree = "<group>";
@@ -138,6 +143,8 @@
 				1F0FA9EBD44DAAEDFD9988F5 /* LoginSystem.h */,
 				66EAB3E01BA2E68600DA6823 /* LoginRequest.h */,
 				66EAB3E11BA2E68600DA6823 /* LoginRequest.m */,
+				1F0FAC7F4E645087E297C1BA /* APIConnection.h */,
+				1F0FAD90A32D4ACD2986A312 /* RESTRequest.h */,
 			);
 			path = StubsAndMocksSample;
 			sourceTree = "<group>";
@@ -286,6 +293,7 @@
 			files = (
 				66EAB3DF1BA2E57900DA6823 /* LoginSystemStub.m in Sources */,
 				66EAB3DB1BA2E4B100DA6823 /* LoginViewControllerTests.m in Sources */,
+				1F0FAB61FC0A9C6AC54E3D4E /* LoginSystemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

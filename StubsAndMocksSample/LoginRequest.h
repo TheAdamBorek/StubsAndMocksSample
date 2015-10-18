@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "APIConnection.h"
 
-@interface LoginRequest : NSObject
+@interface LoginRequest : NSObject <RESTRequest>
 @property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *password;
 

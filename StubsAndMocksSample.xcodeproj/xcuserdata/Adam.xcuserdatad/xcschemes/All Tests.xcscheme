@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F0FABC94F3E15E4F49A64D5"
+               BuildableName = "StubsAndMocksSampleTests.xctest"
+               BlueprintName = "StubsAndMocksSampleTests"
+               ReferencedContainer = "container:StubsAndMocksSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F0FABC94F3E15E4F49A64D5"
+               BuildableName = "StubsAndMocksSampleTests.xctest"
+               BlueprintName = "StubsAndMocksSampleTests"
+               ReferencedContainer = "container:StubsAndMocksSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

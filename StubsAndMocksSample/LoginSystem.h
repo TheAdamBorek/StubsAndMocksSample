@@ -5,10 +5,18 @@
 
 #import <Foundation/Foundation.h>
 #import "LoginRequest.h"
+#import "APIConnection.h"
 
 typedef void(^LoginSystemLoginCallback)(BOOL success, NSError *error);
 
 @interface LoginSystem : NSObject
+@property(nonatomic, strong) id<APIConnection> apiConnection;
+
+- (instancetype)initWithApiConnection:(id <APIConnection>)apiConnection;
+
++ (instancetype)systemWithApiConnection:(id <APIConnection>)apiConnection;
+
+
 - (BOOL)areCredentialValid:(LoginRequest *)request;
 - (void)loginWithRequest:(LoginRequest *)request callback:(LoginSystemLoginCallback)callback;
 @end

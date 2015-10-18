@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Adam Borek. All rights reserved.
 //
 
+#import "RESTRequest.h"
 #import "LoginRequest.h"
 
 @implementation LoginRequest
@@ -22,6 +23,36 @@
 + (instancetype)requestWithEmail:(NSString *)email password:(NSString *)password {
     return [[self alloc] initWithEmail:email password:password];
 }
+
+- (NSString *)RESTMethod {
+    return @"POST";
+}
+
+- (NSString *)APIMethod {
+    return @"login";
+}
+
+- (NSDictionary *)additionalHeaders {
+    return nil;
+}
+
+- (NSDictionary *)params {
+    if([self credentialsAreNil]){
+        return nil;
+    }
+
+    NSDictionary *params = @{
+            @"email":self.email,
+            @"password":self.password
+    };
+
+    return params;
+}
+
+- (BOOL)credentialsAreNil {
+    return !self.email || !self.password;
+}
+
 
 - (BOOL)isEqual:(id)other {
     if (other == self)
